@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Drones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .drone {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .drone img {
+            width: 100%;
+            max-width: 300px;
+            object-fit: cover;
+        }
+        .drone-details {
+            flex: 1;
+            padding: 15px;
+        }
+        .drone-details h2 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        .drone-details p {
+            margin: 0.5rem 0;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .drone {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Types of Drones and Their Functions</h1>
+</header>
+
+<div class="container">
+    <div class="drone">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Quadcopter_camera_drone_in_flight.jpg/1200px-Quadcopter_camera_drone_in_flight.jpg" alt="Quadcopter Drone">
+        <div class="drone-details">
+            <h2>Quadcopter</h2>
+            <p>A quadcopter is a drone with four rotors. It is commonly used for aerial photography, videography, and recreational purposes.</p>
+        </div>
+    </div>
+
+    <div class="drone">
+        <img src="https://assets.newatlas.com/dims4/default/d3f1151/2147483647/strip/true/crop/857x571+122+0/resize/1200x800!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Fmulticopter-drone-landing-sea-1.jpg" alt="Fixed-Wing Drone">
+        <div class="drone-details">
+            <h2>Fixed-Wing Drone</h2>
+            <p>Fixed-wing drones resemble airplanes and are used for surveying, mapping, and agricultural monitoring due to their long flight times.</p>
+        </div>
+    </div>
+
+    <div class="drone">
+        <img src="https://braveinventors.com/wp-content/uploads/2023/08/img_20230615_121322-scaled.jpg" alt="Hexacopter Drone">
+        <div class="drone-details">
+            <h2>Hexacopter</h2>
+            <p>Hexacopters have six rotors, offering more stability and power, making them ideal for carrying heavier payloads.</p>
+        </div>
+    </div>
+
+    <div class="drone">
+        <img src="https://elistair.com/wp-content/uploads/2024/07/Different_types_of_security_drone_-_Multi_rotor_drones.jpg" alt="Military Drone">
+        <div class="drone-details">
+            <h2>Military Drone</h2>
+            <p>Military drones are designed for surveillance and combat missions. They are equipped with advanced technology for precision and stealth.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Drone Tech Guide</p>
+</footer>
+
+</body>
+</html>
